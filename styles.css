@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('gunung.jpg'); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+    color: #FFD700;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.menu-item {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #FFD700;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-text {
+    font-size: 16px;
+}
+
+.calculator {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 400px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #FFD700;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.result {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.result span {
+    color: #FFD700;
+}
+
+.shape {
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: 2px 2px 5px #000;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="number"] {
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+button {
+	padding: 5px 10px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: aqua;
+}
+
+p {
+	margin-top: 10px;
+	font-weight: bold;
+}
